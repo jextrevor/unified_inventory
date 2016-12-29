@@ -34,7 +34,7 @@ unified_inventory.register_button("craft", {
 	tooltip = S("Crafting Grid")
 })
 
-unified_inventory.register_button("craftguide", {
+--[[unified_inventory.register_button("craftguide", {
 	type = "image",
 	image = "ui_craftguide_icon.png",
 	tooltip = S("Crafting Guide")
@@ -135,7 +135,7 @@ unified_inventory.register_button("misc_set_night", {
 	condition = function(player)
 		return minetest.check_player_privs(player:get_player_name(), {settime=true})
 	end,
-})
+})--]]
 
 unified_inventory.register_button("clear_inv", {
 	type = "image",

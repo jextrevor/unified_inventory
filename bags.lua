@@ -6,7 +6,7 @@
 local S = unified_inventory.gettext
 local F = unified_inventory.fgettext
 
-unified_inventory.register_page("bags", {
+--[[unified_inventory.register_page("bags", {
 	get_formspec = function(player)
 		local player_name = player:get_player_name()
 		local formspec = "background[0.06,0.99;7.92,7.52;ui_bags_main_form.png]"
@@ -184,4 +184,4 @@ if minetest.get_modpath("farming") ~= nil then
 			{"farming:cotton", "unified_inventory:bag_medium", "farming:cotton"},
 	    },
 	})
-end
+end]]--

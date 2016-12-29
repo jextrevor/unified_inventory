@@ -147,19 +147,15 @@ function unified_inventory.get_formspec(player, page)
 				.. ",9;.8,.8;ui_skip_backward_icon.png;start_list;]"
 			.. "tooltip[start_list;" .. F("First page") .. "]"
 
-			.. "image_button[" .. (start_x + 0.6 * 1)
-				.. ",9;.8,.8;ui_doubleleft_icon.png;rewind3;]"
-			.. "tooltip[rewind3;" .. F("Back three pages") .. "]"
-			.. "image_button[" .. (start_x + 0.6 * 2)
+			
+			.. "image_button[" .. (start_x + 0.6 * 1.5)
 				.. ",9;.8,.8;ui_left_icon.png;rewind1;]"
 			.. "tooltip[rewind1;" .. F("Back one page") .. "]"
 
-			.. "image_button[" .. (start_x + 0.6 * 3)
+			.. "image_button[" .. (start_x + 0.6 * 3.5)
 				.. ",9;.8,.8;ui_right_icon.png;forward1;]"
 			.. "tooltip[forward1;" .. F("Forward one page") .. "]"
-			.. "image_button[" .. (start_x + 0.6 * 4)
-				.. ",9;.8,.8;ui_doubleright_icon.png;forward3;]"
-			.. "tooltip[forward3;" .. F("Forward three pages") .. "]"
+			
 
 			.. "image_button[" .. (start_x + 0.6 * 5)
 				.. ",9;.8,.8;ui_skip_forward_icon.png;end_list;]"
